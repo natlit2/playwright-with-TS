@@ -1,0 +1,21 @@
+{
+  "name": "playwright-with-ts",
+  "version": "1.0.0",
+  "description": "https://www.youtube.com/watch?v=wawbt1cATsk",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natlit2/playwright-with-TS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natlit2/playwright-with-TS/issues"
+  },
+  "homepage": "https://github.com/natlit2/playwright-with-TS#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.28.1"
+  }
+}
