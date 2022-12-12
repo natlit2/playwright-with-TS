@@ -15,7 +15,7 @@ const config: PlaywrightTestConfig = {
     //"tests/login.test.ts",
     //"recorded_login.test.ts",
     // "tests/basicInteractions.test.ts",
-    "tests/alerts.test.ts",
+    //"tests/alerts.test.ts",
     //tests/dropdown.test.ts",
   ],
   use: {
