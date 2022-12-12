@@ -12,10 +12,10 @@ dotenv.config();
 
 const config: PlaywrightTestConfig = {
   testMatch: [
-    "tests/login.test.ts",
-    "recorded_login.test.ts",
+    //"tests/login.test.ts",
+    //"recorded_login.test.ts",
     // "tests/basicInteractions.test.ts",
-    // "tests/alerts.test.ts",
+    "tests/alerts.test.ts",
     //tests/dropdown.test.ts",
   ],
   use: {
