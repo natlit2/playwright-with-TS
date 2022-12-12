@@ -20,7 +20,8 @@
         "testDir": "c:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS",
         "testIgnore": [],
         "testMatch": [
-          "tests/login.test.ts"
+          "tests/login.test.ts",
+          "tests/recorded.test.ts"
         ],
         "timeout": 30000
       }
@@ -58,14 +59,14 @@
   },
   "suites": [
     {
-      "title": "tests\\login.test.ts",
-      "file": "tests/login.test.ts",
+      "title": "tests\\recorded.test.ts",
+      "file": "tests/recorded.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": " E2E Login test demo",
-          "ok": false,
+          "title": "test",
+          "ok": true,
           "tags": [],
           "tests": [
             {
@@ -77,46 +78,22 @@
               "results": [
                 {
                   "workerIndex": 0,
-                  "status": "failed",
-                  "duration": 9819,
-                  "error": {
-                    "message": "page.fill: value: expected string, got undefined",
-                    "stack": "page.fill: value: expected string, got undefined\n    at c:\\Users\\novoton\\Desktop\\MyPrivateAutomationProjects\\playwright-with-TS\\tests\\login.test.ts:29:14"
-                  },
-                  "errors": [
-                    {
-                      "location": {
-                        "file": "c:\\Users\\novoton\\Desktop\\MyPrivateAutomationProjects\\playwright-with-TS\\tests\\login.test.ts",
-                        "column": 14,
-                        "line": 29
-                      },
-                      "message": "page.fill: value: expected string, got undefined\n\n\u001b[90m   at \u001b[39mtests\\login.test.ts:29\n\n  27 |   await page.click(\"text=Login\");\n  28 |   // fill in an email adress in the email filed\n> 29 |   await page.fill(\"input[name='email']\", myTestUser);\n     |              ^\n  30 |\n  31 |   // fill in the password\n  32 |   await page.fill(\"input[name='password']\", MyTestPass);\n\n\u001b[2m    at c:\\Users\\novoton\\Desktop\\MyPrivateAutomationProjects\\playwright-with-TS\\tests\\login.test.ts:29:14\u001b[22m"
-                    }
-                  ],
+                  "status": "passed",
+                  "duration": 7094,
+                  "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-12-12T11:22:45.630Z",
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "c:\\Users\\novoton\\Desktop\\MyPrivateAutomationProjects\\playwright-with-TS\\test-results\\tests-login--E2E-Login-test-demo\\test-failed-1.png"
-                    }
-                  ],
-                  "errorLocation": {
-                    "file": "c:\\Users\\novoton\\Desktop\\MyPrivateAutomationProjects\\playwright-with-TS\\tests\\login.test.ts",
-                    "column": 14,
-                    "line": 29
-                  }
+                  "startTime": "2022-12-12T13:44:11.013Z",
+                  "attachments": []
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
-          "id": "ef85df6096d4739f2c52-a942ae407c24f429d907",
-          "file": "tests/login.test.ts",
-          "line": 14,
+          "id": "aeb89487b60598200775-764e062666c472cf22f2",
+          "file": "tests/recorded.test.ts",
+          "line": 9,
           "column": 1
         }
       ]

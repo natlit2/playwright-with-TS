@@ -1,10 +1,10 @@
 import { test, expect } from "@playwright/test";
-//import * as dotenv from "dotenv";
-import dotenv from "dotenv";
+import * as dotenv from "dotenv";
 
 dotenv.config();
-const user = "testkrig@gmail.com";
-const pass = "Automation73571n9";
+
+const myTestUser = process.env.USER!;
+const MyTestPass = process.env.PASSWORD!;
 
 test("test", async ({ page }) => {
   // go to main page
@@ -14,9 +14,9 @@ test("test", async ({ page }) => {
   await page.hover('//*[@id="widget-navbar-217834"]/ul/li[6]/a/div/span');
   await page.getByRole("link", { name: "Login" }).click();
   await page.getByPlaceholder("E-Mail Address").click();
-  await page.getByPlaceholder("E-Mail Address").fill(user);
+  await page.getByPlaceholder("E-Mail Address").fill(myTestUser);
   await page.getByPlaceholder("Password").click();
-  await page.getByPlaceholder("Password").fill(pass);
+  await page.getByPlaceholder("Password").fill(MyTestPass);
   await page.getByRole("button", { name: "Login" }).click();
   await page
     .getByRole("link", { name: " Edit your account information" })

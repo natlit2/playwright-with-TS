@@ -1,15 +1,10 @@
 import { chromium, test, expect } from "@playwright/test";
 import * as dotenv from "dotenv";
 
-dotenv.config({ path: ".env" });
+dotenv.config();
 
-console.log(process.env.USER); //getting undefined
-
-const myTestUser = process.env.USER;
-const MyTestPass = process.env.PASSWORD;
-
-// const myTestUser = "testkrig@gmail.com";
-// const MyTestPass = "Automation73571n9";
+const myTestUser = process.env.USER!;
+const MyTestPass = process.env.PASSWORD!;
 
 test(" E2E Login test demo", async () => {
   const browser = await chromium.launch({

@@ -1,11 +1,9 @@
 import type { PlaywrightTestConfig } from "@playwright/test";
 import * as dotenv from "dotenv";
-import { env } from "process";
-// import express from "express";
 
 dotenv.config();
 
-const { devices } = require("@playwright/test");
+//const { devices } = require("@playwright/test");
 
 /**
  * Read environment variables from file.
@@ -15,7 +13,7 @@ const { devices } = require("@playwright/test");
 const config: PlaywrightTestConfig = {
   testMatch: [
     "tests/login.test.ts",
-    // "tests/recorded.test.ts",
+    "recorded_login.test.ts",
     // "tests/basicInteractions.test.ts",
     // "tests/alerts.test.ts",
     //tests/dropdown.test.ts",
