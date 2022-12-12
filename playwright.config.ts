@@ -16,12 +16,15 @@ const config: PlaywrightTestConfig = {
     //"recorded_login.test.ts",
     // "tests/basicInteractions.test.ts",
     //"tests/alerts.test.ts",
-    //tests/dropdown.test.ts",
+    "tests/dropdown.test.ts",
   ],
   use: {
     headless: false,
     screenshot: "only-on-failure",
     video: "retain-on-failure",
+    // launchOptions: {
+    //   slowMo: 1000,
+    },
   },
   retries: 0,
   reporter: [

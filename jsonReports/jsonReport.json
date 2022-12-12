@@ -20,8 +20,7 @@
         "testDir": "c:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS",
         "testIgnore": [],
         "testMatch": [
-          "tests/login.test.ts",
-          "tests/recorded.test.ts"
+          "tests/dropdown.test.ts"
         ],
         "timeout": 30000
       }
@@ -59,13 +58,13 @@
   },
   "suites": [
     {
-      "title": "tests\\recorded.test.ts",
-      "file": "tests/recorded.test.ts",
+      "title": "tests\\dropdown.test.ts",
+      "file": "tests/dropdown.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "test",
+          "title": "Bootstrap DropDown",
           "ok": true,
           "tags": [],
           "tests": [
@@ -79,21 +78,21 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 7094,
+                  "duration": 6214,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-12-12T13:44:11.013Z",
+                  "startTime": "2022-12-12T16:38:00.661Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "aeb89487b60598200775-764e062666c472cf22f2",
-          "file": "tests/recorded.test.ts",
-          "line": 9,
+          "id": "6a3d7e996dd4874286aa-419e39f81895768566ec",
+          "file": "tests/dropdown.test.ts",
+          "line": 31,
           "column": 1
         }
       ]
