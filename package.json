@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "https://www.youtube.com/watch?v=wawbt1cATsk",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test",
+    "build": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/natlit2/playwright-with-TS.git"
@@ -16,6 +19,13 @@
   },
   "homepage": "https://github.com/natlit2/playwright-with-TS#readme",
   "devDependencies": {
-    "@playwright/test": "^1.28.1"
-  }
+    "@playwright/test": "^1.28.1",
+    "@types/node": "^18.11.12",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "process": "^0.11.10"
+  },
+  "cleanup:chrome": "rm -rf ./path/to/test-data-dir/* || true"
 }

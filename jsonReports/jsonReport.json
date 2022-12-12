@@ -1,0 +1,126 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "c:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "",
+        "name": "",
+        "testDir": "c:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/login.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "configFile": "c:\\Users\\novoton\\Desktop\\MyPrivateAutomationProjects\\playwright-with-TS\\playwright.config.ts",
+    "rootDir": "c:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.28.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\login.test.ts",
+      "file": "tests/login.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": " E2E Login test demo",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "failed",
+                  "duration": 9819,
+                  "error": {
+                    "message": "page.fill: value: expected string, got undefined",
+                    "stack": "page.fill: value: expected string, got undefined\n    at c:\\Users\\novoton\\Desktop\\MyPrivateAutomationProjects\\playwright-with-TS\\tests\\login.test.ts:29:14"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "c:\\Users\\novoton\\Desktop\\MyPrivateAutomationProjects\\playwright-with-TS\\tests\\login.test.ts",
+                        "column": 14,
+                        "line": 29
+                      },
+                      "message": "page.fill: value: expected string, got undefined\n\n\u001b[90m   at \u001b[39mtests\\login.test.ts:29\n\n  27 |   await page.click(\"text=Login\");\n  28 |   // fill in an email adress in the email filed\n> 29 |   await page.fill(\"input[name='email']\", myTestUser);\n     |              ^\n  30 |\n  31 |   // fill in the password\n  32 |   await page.fill(\"input[name='password']\", MyTestPass);\n\n\u001b[2m    at c:\\Users\\novoton\\Desktop\\MyPrivateAutomationProjects\\playwright-with-TS\\tests\\login.test.ts:29:14\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-12-12T11:22:45.630Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "c:\\Users\\novoton\\Desktop\\MyPrivateAutomationProjects\\playwright-with-TS\\test-results\\tests-login--E2E-Login-test-demo\\test-failed-1.png"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "c:\\Users\\novoton\\Desktop\\MyPrivateAutomationProjects\\playwright-with-TS\\tests\\login.test.ts",
+                    "column": 14,
+                    "line": 29
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "ef85df6096d4739f2c52-a942ae407c24f429d907",
+          "file": "tests/login.test.ts",
+          "line": 14,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
