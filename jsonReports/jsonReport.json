@@ -20,7 +20,7 @@
         "testDir": "c:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS",
         "testIgnore": [],
         "testMatch": [
-          "tests/dropdown.test.ts"
+          "tests/windows.test.ts"
         ],
         "timeout": 30000
       }
@@ -56,47 +56,11 @@
     "workers": 4,
     "webServer": null
   },
-  "suites": [
+  "suites": [],
+  "errors": [
     {
-      "title": "tests\\dropdown.test.ts",
-      "file": "tests/dropdown.test.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [
-        {
-          "title": "Bootstrap DropDown",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 6214,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2022-12-12T16:38:00.661Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "6a3d7e996dd4874286aa-419e39f81895768566ec",
-          "file": "tests/dropdown.test.ts",
-          "line": 31,
-          "column": 1
-        }
-      ]
+      "message": "=================\n no tests found.\n=================",
+      "__isNotAFatalError": true
     }
-  ],
-  "errors": []
+  ]
 }

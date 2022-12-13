@@ -16,7 +16,9 @@ const config: PlaywrightTestConfig = {
     //"recorded_login.test.ts",
     // "tests/basicInteractions.test.ts",
     //"tests/alerts.test.ts",
-    "tests/dropdown.test.ts",
+    //"tests/dropdown.test.ts",
+    //"tests/frames.test.ts",
+    "tests/windows.test.ts",
   ],
   use: {
     headless: false,
@@ -24,8 +26,8 @@ const config: PlaywrightTestConfig = {
     video: "retain-on-failure",
     // launchOptions: {
     //   slowMo: 1000,
-    },
   },
+
   retries: 0,
   reporter: [
     ["dot"],
