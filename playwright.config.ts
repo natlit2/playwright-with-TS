@@ -18,7 +18,8 @@ const config: PlaywrightTestConfig = {
     //"tests/alerts.test.ts",
     //"tests/dropdown.test.ts",
     //"tests/frames.test.ts",
-    "tests/windows.test.ts",
+    //"tests/windows.test.ts",
+    "tests/datepickers.test.ts",
   ],
   use: {
     headless: false,

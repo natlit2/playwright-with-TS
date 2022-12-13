@@ -20,7 +20,7 @@
         "testDir": "c:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS",
         "testIgnore": [],
         "testMatch": [
-          "tests/windows.test.ts"
+          "tests/datepickers.test.ts"
         ],
         "timeout": 30000
       }
@@ -56,11 +56,47 @@
     "workers": 4,
     "webServer": null
   },
-  "suites": [],
-  "errors": [
+  "suites": [
     {
-      "message": "=================\n no tests found.\n=================",
-      "__isNotAFatalError": true
+      "title": "tests\\datepickers.test.ts",
+      "file": "tests/datepickers.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "handling datepickers using moment ",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 1175,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-12-13T15:45:44.934Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f411c61bf0b274aa7e88-744030fbd444a9d4d3f6",
+          "file": "tests/datepickers.test.ts",
+          "line": 14,
+          "column": 1
+        }
+      ]
     }
-  ]
+  ],
+  "errors": []
 }
