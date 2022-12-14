@@ -12,12 +12,12 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "C:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS/test-results",
+        "outputDir": "c:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS/test-results",
         "repeatEach": 1,
         "retries": 0,
         "id": "",
         "name": "",
-        "testDir": "C:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS",
+        "testDir": "c:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS",
         "testIgnore": [],
         "testMatch": [
           "tests/uploadDownload.test.ts"
@@ -47,8 +47,8 @@
       "max": 5,
       "threshold": 15000
     },
-    "configFile": "C:\\Users\\novoton\\Desktop\\MyPrivateAutomationProjects\\playwright-with-TS\\playwright.config.ts",
-    "rootDir": "C:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS",
+    "configFile": "c:\\Users\\novoton\\Desktop\\MyPrivateAutomationProjects\\playwright-with-TS\\playwright.config.ts",
+    "rootDir": "c:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS",
     "quiet": false,
     "shard": null,
     "updateSnapshots": "missing",
@@ -64,7 +64,7 @@
       "line": 0,
       "specs": [
         {
-          "title": "Download files",
+          "title": "Upload files",
           "ok": true,
           "tags": [],
           "tests": [
@@ -78,21 +78,21 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 1494,
+                  "duration": 6700,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-12-14T16:00:01.401Z",
+                  "startTime": "2022-12-14T21:30:09.539Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "bff505410ff9353f2355-f656baf58696ef99ab06",
+          "id": "bff505410ff9353f2355-f633d1ef960e0b51938a",
           "file": "tests/uploadDownload.test.ts",
-          "line": 3,
+          "line": 35,
           "column": 1
         }
       ]
