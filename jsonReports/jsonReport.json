@@ -78,16 +78,22 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 4135,
+                  "duration": 7159,
                   "errors": [],
                   "stdout": [
+                    {
+                      "text": "this month?true\n"
+                    },
+                    {
+                      "text": "this month?false\n"
+                    },
                     {
                       "text": "this month?true\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-12-14T12:13:19.866Z",
+                  "startTime": "2022-12-14T12:30:35.228Z",
                   "attachments": []
                 }
               ],
