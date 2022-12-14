@@ -1,17 +1,17 @@
 import { expect, test } from "@playwright/test";
 import moment from "moment";
-// test("Handling bootstrap date picker", async ({ page }) => {
-//   await page.goto(
-//     "https://www.lambdatest.com/selenium-playground/bootstrap-date-picker-demo"
-//   );
-//   let date = "1988-02-08";
+test("Handling bootstrap date picker with fill", async ({ page }) => {
+  await page.goto(
+    "https://www.lambdatest.com/selenium-playground/bootstrap-date-picker-demo"
+  );
+  let date = "1988-02-08";
 
-//   await page.fill("id=birthday", date);
+  await page.fill("id=birthday", date);
 
-//   //await page.waitForTimeout(3000);
-// });
+  //await page.waitForTimeout(3000);
+});
 
-test("handling datepickers using moment ", async ({ page }) => {
+test("handling datepickers using moment and interactions", async ({ page }) => {
   await page.goto(
     "https://www.lambdatest.com/selenium-playground/bootstrap-date-picker-demo"
   );
