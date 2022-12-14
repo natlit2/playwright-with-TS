@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "dotenv": "^16.0.3",
+    "moment": "^2.29.4",
     "process": "^0.11.10"
   },
   "cleanup:chrome": "rm -rf ./path/to/test-data-dir/* || true"

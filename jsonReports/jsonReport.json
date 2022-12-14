@@ -12,12 +12,12 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "c:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS/test-results",
+        "outputDir": "C:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS/test-results",
         "repeatEach": 1,
         "retries": 0,
         "id": "",
         "name": "",
-        "testDir": "c:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS",
+        "testDir": "C:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS",
         "testIgnore": [],
         "testMatch": [
           "tests/datepickers.test.ts"
@@ -47,8 +47,8 @@
       "max": 5,
       "threshold": 15000
     },
-    "configFile": "c:\\Users\\novoton\\Desktop\\MyPrivateAutomationProjects\\playwright-with-TS\\playwright.config.ts",
-    "rootDir": "c:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS",
+    "configFile": "C:\\Users\\novoton\\Desktop\\MyPrivateAutomationProjects\\playwright-with-TS\\playwright.config.ts",
+    "rootDir": "C:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS",
     "quiet": false,
     "shard": null,
     "updateSnapshots": "missing",
@@ -78,12 +78,16 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 1175,
+                  "duration": 4135,
                   "errors": [],
-                  "stdout": [],
+                  "stdout": [
+                    {
+                      "text": "this month?true\n"
+                    }
+                  ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-12-13T15:45:44.934Z",
+                  "startTime": "2022-12-14T12:13:19.866Z",
                   "attachments": []
                 }
               ],
