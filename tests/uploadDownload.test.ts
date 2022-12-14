@@ -32,7 +32,7 @@ test("Upload file", async ({ page }) => {
 });
 
 //upload file with the file chooser
-test("Upload files", async ({ page }) => {
+test("Upload files with file chooser", async ({ page }) => {
   await page.goto("https://blueimp.github.io/jQuery-File-Upload/");
 
   const [uploadFiles] = await Promise.all([
