@@ -12,15 +12,15 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "c:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS/test-results",
+        "outputDir": "C:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS/test-results",
         "repeatEach": 1,
         "retries": 0,
         "id": "",
         "name": "",
-        "testDir": "c:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS",
+        "testDir": "C:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS",
         "testIgnore": [],
         "testMatch": [
-          "tests/datepickers.test.ts"
+          "tests/uploadDownload.test.ts"
         ],
         "timeout": 30000
       }
@@ -47,8 +47,8 @@
       "max": 5,
       "threshold": 15000
     },
-    "configFile": "c:\\Users\\novoton\\Desktop\\MyPrivateAutomationProjects\\playwright-with-TS\\playwright.config.ts",
-    "rootDir": "c:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS",
+    "configFile": "C:\\Users\\novoton\\Desktop\\MyPrivateAutomationProjects\\playwright-with-TS\\playwright.config.ts",
+    "rootDir": "C:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS",
     "quiet": false,
     "shard": null,
     "updateSnapshots": "missing",
@@ -58,13 +58,13 @@
   },
   "suites": [
     {
-      "title": "tests\\datepickers.test.ts",
-      "file": "tests/datepickers.test.ts",
+      "title": "tests\\uploadDownload.test.ts",
+      "file": "tests/uploadDownload.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "handling datepickers using moment ",
+          "title": "Download files",
           "ok": true,
           "tags": [],
           "tests": [
@@ -78,31 +78,21 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 10523,
+                  "duration": 1494,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "this month?true\n"
-                    },
-                    {
-                      "text": "this month?false\n"
-                    },
-                    {
-                      "text": "this month?true\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-12-14T12:43:28.733Z",
+                  "startTime": "2022-12-14T16:00:01.401Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "f411c61bf0b274aa7e88-744030fbd444a9d4d3f6",
-          "file": "tests/datepickers.test.ts",
-          "line": 14,
+          "id": "bff505410ff9353f2355-f656baf58696ef99ab06",
+          "file": "tests/uploadDownload.test.ts",
+          "line": 3,
           "column": 1
         }
       ]
