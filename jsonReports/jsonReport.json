@@ -20,7 +20,7 @@
         "testDir": "c:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS",
         "testIgnore": [],
         "testMatch": [
-          "tests/uploadDownload.test.ts"
+          "pomtest/addToCart.test.ts"
         ],
         "timeout": 30000
       }
@@ -58,13 +58,13 @@
   },
   "suites": [
     {
-      "title": "tests\\uploadDownload.test.ts",
-      "file": "tests/uploadDownload.test.ts",
+      "title": "pomtest\\addToCart.test.ts",
+      "file": "pomtest/addToCart.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Upload files",
+          "title": "Register test_01",
           "ok": true,
           "tags": [],
           "tests": [
@@ -78,21 +78,21 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 6700,
+                  "duration": 7243,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-12-14T21:30:09.539Z",
+                  "startTime": "2022-12-16T13:54:47.868Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "bff505410ff9353f2355-f633d1ef960e0b51938a",
-          "file": "tests/uploadDownload.test.ts",
-          "line": 35,
+          "id": "1c188a18f2ecab048a02-8946dbd2929c55bacfa0",
+          "file": "pomtest/addToCart.test.ts",
+          "line": 10,
           "column": 1
         }
       ]

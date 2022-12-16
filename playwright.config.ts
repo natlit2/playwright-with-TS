@@ -20,9 +20,11 @@ const config: PlaywrightTestConfig = {
     //"tests/frames.test.ts",
     //"tests/windows.test.ts",
     //"tests/datepickers.test.ts",
-    "tests/uploadDownload.test.ts",
+    //"tests/uploadDownload.test.ts",
+    "pomtest/addToCart.test.ts",
   ],
   use: {
+    baseURL: "https://ecommerce-playground.lambdatest.io/index.php?",
     headless: false,
     screenshot: "only-on-failure",
     video: "retain-on-failure",
