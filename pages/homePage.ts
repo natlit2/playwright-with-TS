@@ -4,8 +4,9 @@ export default class HomePage {
   constructor(public page: Page) {}
 
   async clickOnSpecialHotMenu() {
-    await this.page
-      .locator("//span[text()[normalize-space()='Special']]")
-      .click();
+    await Promise.all([
+      this.page.waitForNavigation({ waitUntil: "networkidle" }),
+      this.page.locator("(//span[text()='Hot'])[2]").click(),
+    ]);
   }
 }

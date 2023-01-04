@@ -62,38 +62,111 @@
       "file": "pomtest/addToCart.test.ts",
       "column": 0,
       "line": 0,
-      "specs": [
+      "specs": [],
+      "suites": [
         {
-          "title": "Register test_01",
-          "ok": true,
-          "tags": [],
-          "tests": [
+          "title": "Page Object Model addToCart test",
+          "file": "pomtest/addToCart.test.ts",
+          "line": 9,
+          "column": 6,
+          "specs": [
             {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
+              "title": "Register test_01",
+              "ok": true,
+              "tags": [],
+              "tests": [
                 {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 7243,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2022-12-16T13:54:47.868Z",
-                  "attachments": []
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 5107,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-01-04T14:22:45.744Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "status": "expected"
+              "id": "1c188a18f2ecab048a02-a65372119697ebb49051",
+              "file": "pomtest/addToCart.test.ts",
+              "line": 10,
+              "column": 3
+            },
+            {
+              "title": "Login with the newly created user test_02",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 4830,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-01-04T14:22:51.223Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1c188a18f2ecab048a02-234bb123630312314229",
+              "file": "pomtest/addToCart.test.ts",
+              "line": 25,
+              "column": 3
+            },
+            {
+              "title": "add to cart test_3",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 8855,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-01-04T14:22:56.055Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1c188a18f2ecab048a02-b8ab5d7350e5b727c491",
+              "file": "pomtest/addToCart.test.ts",
+              "line": 37,
+              "column": 3
             }
-          ],
-          "id": "1c188a18f2ecab048a02-8946dbd2929c55bacfa0",
-          "file": "pomtest/addToCart.test.ts",
-          "line": 10,
-          "column": 1
+          ]
         }
       ]
     }
