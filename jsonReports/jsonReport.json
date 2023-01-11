@@ -12,15 +12,16 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "C:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS/test-results",
+        "outputDir": "c:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS/test-results",
         "repeatEach": 1,
         "retries": 0,
         "id": "",
         "name": "",
-        "testDir": "C:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS",
+        "testDir": "c:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS",
         "testIgnore": [],
         "testMatch": [
-          "fixture/fixtureTest.test.ts"
+          "pomtest/addToCart.test.ts",
+          "pomtest/addToCartUsingFixture.test.ts"
         ],
         "timeout": 30000
       }
@@ -47,57 +48,62 @@
       "max": 5,
       "threshold": 15000
     },
-    "configFile": "C:\\Users\\novoton\\Desktop\\MyPrivateAutomationProjects\\playwright-with-TS\\playwright.config.ts",
-    "rootDir": "C:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS",
+    "configFile": "c:\\Users\\novoton\\Desktop\\MyPrivateAutomationProjects\\playwright-with-TS\\playwright.config.ts",
+    "rootDir": "c:/Users/novoton/Desktop/MyPrivateAutomationProjects/playwright-with-TS",
     "quiet": false,
     "shard": null,
     "updateSnapshots": "missing",
-    "version": "1.28.1",
+    "version": "1.29.2",
     "workers": 4,
     "webServer": null
   },
   "suites": [
     {
-      "title": "fixture\\fixtureTest.test.ts",
-      "file": "fixture/fixtureTest.test.ts",
+      "title": "pomtest\\addToCartUsingFixture.test.ts",
+      "file": "pomtest/addToCartUsingFixture.test.ts",
       "column": 0,
       "line": 0,
-      "specs": [
+      "specs": [],
+      "suites": [
         {
-          "title": "fixture",
-          "ok": true,
-          "tags": [],
-          "tests": [
+          "title": "Page Object Model addToCart test",
+          "file": "pomtest/addToCartUsingFixture.test.ts",
+          "line": 11,
+          "column": 6,
+          "specs": [
             {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
+              "title": "add to cart test_3",
+              "ok": true,
+              "tags": [],
+              "tests": [
                 {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 7,
-                  "errors": [],
-                  "stdout": [
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
                     {
-                      "text": "age: 38,email: USER@USER.COM \n"
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 9362,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-01-11T21:16:28.941Z",
+                      "attachments": []
                     }
                   ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-01-05T15:42:47.350Z",
-                  "attachments": []
+                  "status": "expected"
                 }
               ],
-              "status": "expected"
+              "id": "92fe7589f3cd844569b7-21f25e4fa0a5e3fb162b",
+              "file": "pomtest/addToCartUsingFixture.test.ts",
+              "line": 40,
+              "column": 7
             }
-          ],
-          "id": "8197fb6fcaffc8617c63-b5afd61d70c62dbcaa00",
-          "file": "fixture/fixtureTest.test.ts",
-          "line": 3,
-          "column": 1
+          ]
         }
       ]
     }

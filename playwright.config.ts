@@ -21,8 +21,9 @@ const config: PlaywrightTestConfig = {
     //"tests/windows.test.ts",
     //"tests/datepickers.test.ts",
     //"tests/uploadDownload.test.ts",
-    //"pomtest/addToCart.test.ts",
-    "fixture/fixtureTest.test.ts",
+    "pomtest/addToCart.test.ts",
+    //"fixture/fixtureTest.test.ts",
+    "pomtest/addToCartUsingFixture.test.ts",
   ],
   use: {
     baseURL: "https://ecommerce-playground.lambdatest.io/index.php?",

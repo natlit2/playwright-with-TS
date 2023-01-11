@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/natlit2/playwright-with-TS#readme",
   "devDependencies": {
-    "@playwright/test": "^1.28.1",
+    "@playwright/test": "^1.29.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@types/node": "^18.11.12",
