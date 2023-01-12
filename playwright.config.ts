@@ -1,4 +1,4 @@
-import type { PlaywrightTestConfig } from "@playwright/test";
+import { devices, PlaywrightTestConfig } from "@playwright/test";
 import * as dotenv from "dotenv";
 
 dotenv.config();
@@ -11,6 +11,27 @@ dotenv.config();
  */
 
 const config: PlaywrightTestConfig = {
+  //set browsers to run tests on
+  projects: [
+    {
+      name: "edge",
+      use: {
+        ...devices["Desktop Edge"],
+      },
+    },
+    {
+      name: "firefox",
+      use: {
+        ...devices["Desktop Firefox"],
+      },
+    },
+    {
+      name: "chrome",
+      use: {
+        ...devices["Desktop Chrome"],
+      },
+    },
+  ],
   testMatch: [
     //"tests/login.test.ts",
     //"recorded_login.test.ts",
@@ -21,7 +42,7 @@ const config: PlaywrightTestConfig = {
     //"tests/windows.test.ts",
     //"tests/datepickers.test.ts",
     //"tests/uploadDownload.test.ts",
-    "pomtest/addToCart.test.ts",
+    //"pomtest/addToCart.test.ts",
     //"fixture/fixtureTest.test.ts",
     "pomtest/addToCartUsingFixture.test.ts",
   ],

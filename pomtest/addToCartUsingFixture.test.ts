@@ -8,6 +8,13 @@ import * as data from "../test-data/addToCart-test-data.json";
 
 const email = "natan@natan2.natan";
 const pass = "test1234";
+
+// overide default chromium browser and define a browser for the specific tests in this file(this will run all tests in this file on the defined browser)
+
+// test.use({
+//   browserName: "firefox",
+// });
+
 test.describe("Page Object Model addToCart test", async () => {
   test("Register test_01", async ({ page, baseURL, registerPage }) => {
     // const register = new RegisterPage(page);
