@@ -28,16 +28,19 @@ test(" E2E Login test demo", async () => {
   // Click on the login button
   await page.click("input[value='Login']");
   // set timeout for no action
-  await page.waitForTimeout(5000);
+  // // //  //after implementing fixture we can comment this out
+  // await page.waitForTimeout(5000);
 
   //// checking for session persistance //uncomment the required
 
   //// opening a new browser (tab)page expecting to be loggedin
 
-  const page1 = await context.newPage();
-  await page1.goto(
-    "https://ecommerce-playground.lambdatest.io/index.php?route=account/account"
-  );
+  // //  //after implementing fixture we can comment this out
+
+  // const page1 = await context.newPage();
+  // await page1.goto(
+  //   "https://ecommerce-playground.lambdatest.io/index.php?route=account/account"
+  // );
 
   ////opening a new browser and expecting to not be logged in
   // const newContext = await browser.newContext();
@@ -47,5 +50,12 @@ test(" E2E Login test demo", async () => {
 
   //   );
 
-  await page.waitForTimeout(5000);
+  //  //after implementing fixture we can comment this out
+  //   await page.waitForTimeout(5000);
+
+  //for good practice we can close all the objects that we opened
+
+  await page.close();
+  await context.close();
+  await browser.close();
 });
